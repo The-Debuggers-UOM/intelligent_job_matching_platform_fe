@@ -1,7 +1,9 @@
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import { TabsContent } from "@/components/ui/tabs";
 import { BookOpen, CheckCircle, Code, Play, Target } from "lucide-react";
 import React from "react";
+import SearchRepos from "./search_repos";
 
 const Tab1ModuleContent = () => {
   return (
@@ -17,6 +19,8 @@ const Tab1ModuleContent = () => {
           Build your fundamental understanding with core concepts and
           principles.
         </p>
+
+        <SearchRepos />
 
         <div className="grid gap-4 md:grid-cols-2">
           <div className="border rounded-lg p-4">
