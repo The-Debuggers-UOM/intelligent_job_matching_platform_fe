@@ -1,11 +1,11 @@
 import axios from "axios";
 
-const axiosInstance = axios.create({
-  baseURL: "http://74.225.201.125:4000",
+const axiosInstanceModule3 = axios.create({
+  baseURL: "http://74.225.201.125:5000",
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json",
   },
 });
 
-export default axiosInstance;
+export default axiosInstanceModule3;
